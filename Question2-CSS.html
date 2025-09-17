@@ -4,27 +4,27 @@
    <title>Question 2 - CSS</title>
    <style>
     .mainsection a {
-      text-decoration: none;
-      color: #414040;
+      text-decoration: underline;
+      color: blue;
       outline: none;
     }
-
-    
+    .mainsection a:hover,
+    .mainsection a:focus {
+      outline: 2px solid #000;  
+    }
     </style>
 </head>
 <body>
 <div class="mainsection">
-<h1><img src="lab2/lab2-imageoftext.gif" alt="Shopping categories"></h1>
-
+<h1>Shopping categories</h1>
 <ul>
-  <li><a href="#">Animals</a></li>
-  <li><a href="#">Computers</a></li>
-  <li><a href="#">Diversity and inclusion</a></li>
-  <li><a href="#">Food</a></li>
-  <li><a href="#">Medicine</a></li>
-  <li><a href="#">Music</a></li>
+  <li><a href="Animals">Animals</a></li>
+  <li><a href="Computers">Computers</a></li>
+  <li><a href="Diversity and inclusion">Diversity and inclusion</a></li>
+  <li><a href="Food">Food</a></li>
+  <li><a href="Medicine">Medicine</a></li>
+  <li><a href="Music">Music</a></li>
 </ul>
 </div>    
-
 </body>
 </html>
